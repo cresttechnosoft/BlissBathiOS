@@ -16,6 +16,7 @@
 		66DB40621EC590F90068DF8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66DB40601EC590F90068DF8D /* LaunchScreen.storyboard */; };
 		66DB406D1EC590F90068DF8D /* BlissBathTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DB406C1EC590F90068DF8D /* BlissBathTests.m */; };
 		66DB40781EC590F90068DF8D /* BlissBathUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DB40771EC590F90068DF8D /* BlissBathUITests.m */; };
+		66DB40881EC595060068DF8D /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DB40871EC595060068DF8D /* TestVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		66DB40731EC590F90068DF8D /* BlissBathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlissBathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66DB40771EC590F90068DF8D /* BlissBathUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlissBathUITests.m; sourceTree = "<group>"; };
 		66DB40791EC590F90068DF8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66DB40861EC595060068DF8D /* TestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
+		66DB40871EC595060068DF8D /* TestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,7 @@
 				66DB40601EC590F90068DF8D /* LaunchScreen.storyboard */,
 				66DB40631EC590F90068DF8D /* Info.plist */,
 				66DB405B1EC590F90068DF8D /* BlissBath.xcdatamodeld */,
+				66DB40851EC594E10068DF8D /* Test */,
 				66DB404F1EC590F90068DF8D /* Supporting Files */,
 			);
 			path = BlissBath;
@@ -141,6 +145,15 @@
 				66DB40791EC590F90068DF8D /* Info.plist */,
 			);
 			path = BlissBathUITests;
+			sourceTree = "<group>";
+		};
+		66DB40851EC594E10068DF8D /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				66DB40861EC595060068DF8D /* TestVC.h */,
+				66DB40871EC595060068DF8D /* TestVC.m */,
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,6 +295,7 @@
 				66DB40571EC590F90068DF8D /* ViewController.m in Sources */,
 				66DB40541EC590F90068DF8D /* AppDelegate.m in Sources */,
 				66DB405D1EC590F90068DF8D /* BlissBath.xcdatamodeld in Sources */,
+				66DB40881EC595060068DF8D /* TestVC.m in Sources */,
 				66DB40511EC590F90068DF8D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
